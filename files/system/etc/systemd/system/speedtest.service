@@ -1,0 +1,6 @@
+[Unit]
+Description=Runs an internet speedtest
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/speedtest-cli

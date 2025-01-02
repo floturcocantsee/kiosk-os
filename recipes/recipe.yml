@@ -16,13 +16,10 @@ modules:
     install:
       - chromium
       - mpv
+      - speedtest-cli
 
   - type: default-flatpaks
     notify: true
-
-  #- type: script
-  #  scripts:
-  #    - intel-cstate.sh
-
+    
   - type: signing
 
