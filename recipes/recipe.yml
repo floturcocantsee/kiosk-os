@@ -17,6 +17,7 @@ modules:
       - chromium
       - mpv
       - speedtest-cli
+      - btop
 
   - type: default-flatpaks
     notify: true
